@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "statement":"1. Guess the flag?",
+    "img":"./public/images/pak.png",
+    "options":[
+      "Pakistan",
+      "India",
+      "Afghanistan",
+      "Nepal"
+    ],
+    "correctOptionIndex":0
+  },
+  {
+    "id":2,
+    "statement":"2.Guess the flag?",
+    "img":"./public/images/india.png",
+    "options":[
+      "Pakistan",
+      "India",
+      "Afghanistan",
+      "Nepal"
+    ],
+    "correctOptionIndex":1
+  },
+  {
+    "id":3,
+    "statement":"3. Guess the flag?",
+    "img":"./public/images/afghan.png",
+    "options":[
+      "Pakistan",
+      "India",
+      "Afghanistan",
+      "Nepal"
+    ],
+    "correctOptionIndex":2
+  },
+  {
+    "id":4,
+    "statement":"4.Guess the flag?",
+    "img":"./public/images/nepal.png",
+    "options":[
+      "Pakistan",
+      "India",
+      "Afghanistan",
+      "Nepal"
+    ],
+    "correctOptionIndex":3
+  }
+]

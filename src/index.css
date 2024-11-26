@@ -1,0 +1,167 @@
+/* Basic reset and font settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Container for the quiz */
+.quiz-container {
+  width: 80%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Question and Image styling */
+.question-section {
+  margin-bottom: 30px;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the options */
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 150px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #357ab7;
+  transform: translateY(-3px);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.active {
+  background-color: #049b39; /* Highlight selected button */
+}
+button.noActive {
+  background-color: #ee7700; /* Highlight selected button */
+}
+
+/* Bottom button */
+.next-button {
+  background-color: #8bc34a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #6a9e3f;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Restart section */
+.restart-section {
+  margin-top: 30px;
+}
+/*  */
+/* General button styles */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #eaeaea;
+  border-color: #bbb;
+}
+
+/* Disabled button */
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Active state - general */
+button.active {
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.05); /* Slight enlargement for emphasis */
+}
+
+/* Correct answer */
+button.correct {
+  border-color: #28a745;
+  background-color: #28a745;
+  color: white;
+}
+
+/* Incorrect answer */
+button.incorrect {
+  border-color: #dc3545;
+  background-color: #dc3545;
+  color: white;
+}
