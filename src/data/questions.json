@@ -2,7 +2,7 @@
   {
     "id":1,
     "statement":"1. Guess the flag?",
-    "img":"./public/pak.png",
+    "img":"./public/images/pak.png",
     "options":[
       "Pakistan",
       "India",
@@ -14,7 +14,7 @@
   {
     "id":2,
     "statement":"2.Guess the flag?",
-    "img":"./public/india.png",
+    "img":"./public/images/india.png",
     "options":[
       "Pakistan",
       "India",
@@ -26,7 +26,7 @@
   {
     "id":3,
     "statement":"3. Guess the flag?",
-    "img":"./public/afghan.png",
+    "img":"./public/images/afghan.png",
     "options":[
       "Pakistan",
       "India",
@@ -38,7 +38,7 @@
   {
     "id":4,
     "statement":"4.Guess the flag?",
-    "img":"./public/nepal.png",
+    "img":"./public/images/nepal.png",
     "options":[
       "Pakistan",
       "India",
